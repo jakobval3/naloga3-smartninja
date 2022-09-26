@@ -1,0 +1,99 @@
+body{
+margin:0;
+background-color: #202124;
+}
+
+.header{
+  height: 5vh;
+ display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: stretch;
+
+}
+
+.header a{
+  padding:10px;
+
+}
+
+.header img{
+  width: 25px;
+  height: 25px;
+  border-radius: 20%;
+
+}
+
+a {
+  color: #9aa0a6;
+  text-decoration: none;
+
+}
+
+.main{
+height: 80vh;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+align-content: stretch;
+}
+
+.main input{
+margin: 10px;
+height: 30px;
+width: 400px;
+border-radius: 30px;
+border: 1px solid #3c4043;
+background-color: #202124;
+}
+
+.button-container button{
+  height: 40px;
+  width: 150px;
+  background-color: #3c4043;
+  border-radius: 10px;
+  border: 1px solid #3c4043;
+}
+
+.jezik{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+}
+
+.jezik a{
+  margin: 10px;
+}
+
+.footer{
+height: 10vh;
+
+
+}
+
+.part1{
+color:  #9aa0a6;
+padding: 15px 30px;
+border-bottom: 1px solid #3c4043;
+font-size: 15px;
+}
+
+.part2{
+color: #9aa0a6;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+}
+
+.leva-skupina{
+padding: 0 20px;
+}
